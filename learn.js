@@ -93,3 +93,28 @@ buah.shift(); // menampilkan dan menghapus item awal dari array
 console.log(buah); // mengecek perubahan
 console.log(buah.sort()); // mengurutkan Array
 console.log(buah.reverse()); // membalikkan urutan Array
+
+let data_diri = {
+    namaDepan : "Rifo",
+    namaBelakang : "Trinanda Akbar",
+    alamat : "Pekanbaru",
+    insta : "@rifotrinanda9",
+    pekerjaan : "Mahasiswa",
+    namaLengkap : function(){
+        return this.namaDepan + " " + this.namaBelakang;
+    }
+}
+
+console.log(data_diri.namaDepan); // menampilkan nama depan
+console.log(data_diri.namaBelakang); // menampilkan nama belakang
+console.log(data_diri.alamat); // menampilkan alamat
+console.log(data_diri.insta); // menampilkan insta
+console.log(data_diri.pekerjaan); // menampilkan pekerjaan 
+console.log(data_diri.namaLengkap()); // menampilkan nama lengkap
+
+console.log(data_diri["namaDepan"]); // menampilkan nama depan
+console.log(data_diri["namaBelakang"]); // menampilkan nama belakang
+console.log(data_diri["alamat"]); // menampilkan alamat
+console.log(data_diri["insta"]); // menampilkan insta
+console.log(data_diri["pekerjaan"]); // menampilkan pekerjaan
+console.log(data_diri["namaLengkap"]()); // menampilkan nama lengkap
