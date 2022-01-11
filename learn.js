@@ -42,9 +42,35 @@ console.log('true && true =', true && true); // menampilkan true
 console.log('true && false =', true && false); // menampilkan false
 console.log('false && true =', false && true); // menampilkan false
 console.log('false && false =', false && false); // menampilkan false
-console.log('true  true =', true  true); // menampilkan true
-console.log('true  false =', true  false); // menampilkan true 
-console.log('false  true =', false  true); // menampilkan true 
-console.log('false  false =', false  false); // menampilkan false
+console.log('true || true =', true || true); // menampilkan true
+console.log('true || false =', true || false); // menampilkan true 
+console.log('false || true =', false || true); // menampilkan true 
+console.log('false || false =', false || false); // menampilkan false
 console.log('!true =', !true); // menampilkan false
 console.log('!false =', !false); // menampilkan true
+
+function hitungLuasPersegi(s) {
+    var luas = s * s
+    return luas
+  }
+  var hasil = hitungLuasPersegi(5)
+  console.log(hasil) // menampilkan 25
+
+
+
+function luasSegitiga(a,t) {
+    var l2=(a * t) / 2
+    return l2
+  }
+  var h2=luasSegitiga(3,4)
+  console.log(h2) //menampilkan 6
+
+
+
+function volumeBalok(p,l,t){
+      var v=(p * l * t)
+      return v
+
+  }
+  var h3=volumeBalok(4,6,4)
+  console.log(h3) //menampilkan 96
