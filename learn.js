@@ -74,3 +74,22 @@ function volumeBalok(p,l,t){
   }
   var h3=volumeBalok(4,6,4)
   console.log(h3) //menampilkan 96
+
+  var buah = ["Naga", "Nanas", "Mengkudu", "Sirsak"];
+console.log(buah[0]); // menampilkan Naga
+console.log(buah[1]); // menampilkan Nanas
+console.log(buah[2]); // menampilkan Mengkudu
+console.log(buah[3]); // menampilkan Sirsak
+buah[1] = "Leci"; // mengganti Nanas menjadi Leci
+console.log(buah); // mengecek perubahan
+buah.push("Pir"); // menambah Pir di akhir Array
+console.log(buah); // mengecek perubahan
+buah.pop("Pir"); // melihat dan menghapus item dari Array
+console.log(buah); // mengecek perubahan
+console.log('Panjang Array = ', buah.length); // menghitung panjang Array
+buah.unshift("Semangka"); // menambah Semangka di awal Array
+console.log(buah); // mengecek perubahan
+buah.shift(); // menampilkan dan menghapus item awal dari array
+console.log(buah); // mengecek perubahan
+console.log(buah.sort()); // mengurutkan Array
+console.log(buah.reverse()); // membalikkan urutan Array
