@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Catch</title>
+</head>
+<body>
+    <script>
+        try{
+            var club = "bhayangkara samator";
+                document.write(club);
+            if(club == "bhayangkara"){
+                throw("mohon lebih spesifik")
+            }    
+        } catch(error){
+            alert(error);
+        } finally{    
+            document.write("<br> pesan ini tetap muncul!");
+        }
+    </script>
+</body>
+</html>
